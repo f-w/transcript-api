@@ -1,20 +1,16 @@
-product: '1.0.0'
-
+product: 1.0.0
 info:
   name: transcript
   title: transcript
   version: 1.0.0
-
 apis:
-  'transcript':
+  transcript:
     $ref: transcript.yaml
-
 visibility:
   view:
     type: public
   subscribe:
     type: authenticated
-
 plans:
   default:
     title: Default Plan
