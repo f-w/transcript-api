@@ -1,6 +1,8 @@
 {
   "imdb": {
     "name": "imdb",
+    "localStorage": "",
+    "file": "server/database/data.json",
     "connector": "memory"
   }
 }
