@@ -1,12 +1,10 @@
 {
   "ids": {
-    "school": 4
+    "postSecondarySchool": 2
   },
   "models": {
-    "school": {
-      "1": "{\"name\":\"UBC\",\"id\":1}",
-      "2": "{\"name\":\"SFU\",\"id\":2}",
-      "3": "{\"name\":\"UVic\",\"id\":3}"
+    "postSecondarySchool": {
+      "1": "{\"name\":\"UBC\",\"id\":1}"
     }
   }
 }

@@ -1,46 +1,46 @@
 paths:
-  /schools:
+  /postSecondarySchools:
     post:
       tags:
-        - school
+        - postSecondarySchool
       summary: Create a new instance of the model and persist it into the data source.
-      operationId: school.create
+      operationId: postSecondarySchool.create
       parameters:
         - name: data
           in: body
           description: Model instance data
           required: false
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       responses:
         '200':
           description: Request was successful
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       deprecated: false
     put:
       tags:
-        - school
+        - postSecondarySchool
       summary: Update an existing model instance or insert a new one into the data source.
-      operationId: school.upsert
+      operationId: postSecondarySchool.upsert
       parameters:
         - name: data
           in: body
           description: Model instance data
           required: false
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       responses:
         '200':
           description: Request was successful
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       deprecated: false
     get:
       tags:
-        - school
+        - postSecondarySchool
       summary: Find all instances of the model matched by filter from the data source.
-      operationId: school.find
+      operationId: postSecondarySchool.find
       parameters:
         - name: filter
           in: query
@@ -54,14 +54,14 @@ paths:
           schema:
             type: array
             items:
-              $ref: '#/definitions/school'
+              $ref: '#/definitions/postSecondarySchool'
       deprecated: false
-  '/schools/{id}/exists':
+  '/postSecondarySchools/{id}/exists':
     get:
       tags:
-        - school
+        - postSecondarySchool
       summary: Check whether a model instance exists in the data source.
-      operationId: 'school.exists__get_schools_{id}_exists'
+      operationId: 'postSecondarySchool.exists__get_postSecondarySchools_{id}_exists'
       parameters:
         - name: id
           in: path
@@ -78,12 +78,12 @@ paths:
               exists:
                 type: boolean
       deprecated: false
-  '/schools/{id}':
+  '/postSecondarySchools/{id}':
     head:
       tags:
-        - school
+        - postSecondarySchool
       summary: Check whether a model instance exists in the data source.
-      operationId: 'school.exists__head_schools_{id}'
+      operationId: 'postSecondarySchool.exists__head_postSecondarySchools_{id}'
       parameters:
         - name: id
           in: path
@@ -102,9 +102,9 @@ paths:
       deprecated: false
     get:
       tags:
-        - school
+        - postSecondarySchool
       summary: Find a model instance by id from the data source.
-      operationId: school.findById
+      operationId: postSecondarySchool.findById
       parameters:
         - name: id
           in: path
@@ -122,13 +122,13 @@ paths:
         '200':
           description: Request was successful
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       deprecated: false
     delete:
       tags:
-        - school
+        - postSecondarySchool
       summary: Delete a model instance by id from the data source.
-      operationId: school.deleteById
+      operationId: postSecondarySchool.deleteById
       parameters:
         - name: id
           in: path
@@ -144,16 +144,16 @@ paths:
       deprecated: false
     put:
       tags:
-        - school
+        - postSecondarySchool
       summary: Update attributes for a model instance and persist it into the data source.
-      operationId: school.prototype.updateAttributes
+      operationId: postSecondarySchool.prototype.updateAttributes
       parameters:
         - name: data
           in: body
           description: An object of model property name/value pairs
           required: false
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
         - name: id
           in: path
           description: PersistedModel id
@@ -164,14 +164,14 @@ paths:
         '200':
           description: Request was successful
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       deprecated: false
-  /schools/findOne:
+  /postSecondarySchools/findOne:
     get:
       tags:
-        - school
+        - postSecondarySchool
       summary: Find first instance of the model matched by filter from the data source.
-      operationId: school.findOne
+      operationId: postSecondarySchool.findOne
       parameters:
         - name: filter
           in: query
@@ -183,14 +183,14 @@ paths:
         '200':
           description: Request was successful
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       deprecated: false
-  /schools/update:
+  /postSecondarySchools/update:
     post:
       tags:
-        - school
+        - postSecondarySchool
       summary: Update instances of the model matched by where from the data source.
-      operationId: school.updateAll
+      operationId: postSecondarySchool.updateAll
       parameters:
         - name: where
           in: query
@@ -203,7 +203,7 @@ paths:
           description: An object of model property name/value pairs
           required: false
           schema:
-            $ref: '#/definitions/school'
+            $ref: '#/definitions/postSecondarySchool'
       responses:
         '200':
           description: Request was successful
@@ -211,12 +211,12 @@ paths:
             description: The number of instances updated
             type: object
       deprecated: false
-  /schools/count:
+  /postSecondarySchools/count:
     get:
       tags:
-        - school
+        - postSecondarySchool
       summary: Count instances of the model matched by where from the data source.
-      operationId: school.count
+      operationId: postSecondarySchool.count
       parameters:
         - name: where
           in: query
@@ -234,12 +234,12 @@ paths:
                 type: number
                 format: double
       deprecated: false
-  /schools/change-stream:
+  /postSecondarySchools/change-stream:
     post:
       tags:
-        - school
+        - postSecondarySchool
       summary: Create a change stream.
-      operationId: school.createChangeStream__post_schools_change-stream
+      operationId: postSecondarySchool.createChangeStream__post_postSecondarySchools_change-stream
       parameters:
         - name: options
           in: formData
@@ -254,9 +254,9 @@ paths:
       deprecated: false
     get:
       tags:
-        - school
+        - postSecondarySchool
       summary: Create a change stream.
-      operationId: school.createChangeStream__get_schools_change-stream
+      operationId: postSecondarySchool.createChangeStream__get_postSecondarySchools_change-stream
       parameters:
         - name: options
           in: query
@@ -270,13 +270,13 @@ paths:
             type: file
       deprecated: false
 definitions:
-  school:
+  postSecondarySchool:
     properties:
+      name:
+        type: string
       id:
         type: number
         format: double
-      name:
-        type: string
     required:
       - name
     additionalProperties: false
