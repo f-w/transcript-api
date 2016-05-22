@@ -16,5 +16,9 @@
   "postSecondarySchool": {
     "dataSource": "imdb",
     "public": true
+  },
+  "transcriptSubmission": {
+    "dataSource": "imdb",
+    "public": true
   }
 }

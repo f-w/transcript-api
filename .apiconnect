@@ -1,1 +1,2 @@
-{}
+catalog: 'apic-catalog://us.apiconnect.ibmcloud.com/orgs/abbr-dev/catalogs/sb'
+app: 'apic-app://us.apiconnect.ibmcloud.com/orgs/abbr-dev2/apps/transcript'
