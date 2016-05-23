@@ -11,7 +11,7 @@
       "required": true
     },
     "submissionDate": {
-      "type": "string",
+      "type": "date",
       "required": true
     },
     "userID": {
