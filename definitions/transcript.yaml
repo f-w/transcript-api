@@ -559,6 +559,7 @@ definitions:
         format: double
       submissionDate:
         type: string
+        format: date
       userID:
         type: string
       id:
