@@ -1,11 +1,13 @@
 {
   "ids": {
-    "postSecondarySchool": 2,
+    "postSecondarySchool": 5,
     "transcript": 2
   },
   "models": {
     "postSecondarySchool": {
-      "1": "{\"name\":\"UBC\",\"id\":1}"
+      "1": "{\"name\":\"University of British Columbia\",\"id\":1}",
+      "2": "{\"name\":\"Simon Fraser University\",\"id\":2}",
+      "3": "{\"name\":\"University of Victoria\",\"id\":3}"
     },
     "transcript": {
       "1": "{\"studentId\":\"abbr\",\"transcript\":{\"columns\":[\"course\",\"final grade\"],\"rows\":[{\"course\":\"English 10\",\"final grade\":\"A\"}]},\"id\":1}"
