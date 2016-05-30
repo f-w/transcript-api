@@ -1,0 +1,22 @@
+{
+  "name": "transcript",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "studentId": {
+      "type": "string",
+      "required": true
+    },
+    "transcript": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
