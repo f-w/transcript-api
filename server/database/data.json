@@ -10,7 +10,7 @@
       "3": "{\"name\":\"University of Victoria\",\"id\":3}"
     },
     "transcript": {
-      "1": "{\"studentId\":\"abbr\",\"transcript\":{\"columns\":[\"course\",\"final grade\"],\"rows\":[{\"course\":\"English 10\",\"final grade\":\"A\"}]},\"id\":1}"
+      "1": "{\"studentId\":\"abbr\",\"transcript\":{\"columns\":[\"Course Name\",\"Course Code\",\"Req\",\"Equ\",\"Session Date\",\"Gr 12 School %\",\"Gr 12 Exam %\",\"Final %\",\"Final Letter Grade\",\"Credits\"],\"rows\":[{\"Course Name\":\"English 10\",\"Course Code\":\"EN 10\",\"Req\":\"1\",\"Session Date\":\"2014/06\",\"Final %\":\"3\",\"Final Letter Grade\":\"A\",\"Credits\":\"4\"}]},\"id\":1,\"PEN\":\"123 456 789\",\"Birth Date\":\"1995/06/30\",\"Issue Date\":\"2011/06/30\",\"Name of School\":\"Victoria Continuing Education\",\"Street Address\":\"123 Main\",\"City\":\"Victoria\",\"Postal Code\":\"V8T 1A3\"}"
     }
   }
 }
