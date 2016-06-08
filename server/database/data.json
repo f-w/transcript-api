@@ -1,7 +1,7 @@
 {
   "ids": {
     "postSecondarySchool": 5,
-    "transcript": 2
+    "transcript": 5
   },
   "models": {
     "postSecondarySchool": {
@@ -10,7 +10,7 @@
       "3": "{\"name\":\"University of Victoria\",\"id\":3}"
     },
     "transcript": {
-      "1": "{\"studentId\":\"abbr\",\"transcript\":{\"columns\":[\"Course Name\",\"Course Code\",\"Req\",\"Equ\",\"Session Date\",\"Gr 12 School %\",\"Gr 12 Exam %\",\"Final %\",\"Final Letter Grade\",\"Credits\"],\"rows\":[{\"Course Name\":\"English 10\",\"Course Code\":\"EN 10\",\"Req\":\"1\",\"Session Date\":\"2014/06\",\"Final %\":\"3\",\"Final Letter Grade\":\"A\",\"Credits\":\"4\"}]},\"id\":1,\"PEN\":\"123 456 789\",\"Birth Date\":\"1995/06/30\",\"Issue Date\":\"2011/06/30\",\"Name of School\":\"Victoria Continuing Education\",\"Street Address\":\"123 Main\",\"City\":\"Victoria\",\"Postal Code\":\"V8T 1A3\"}"
+      "1": "{\"studentId\":\"abbr\",\"transcript\":{\"columns\":[\"Course Name\",\"Course Code\",\"Req\",\"Equ\",\"Session Date\",\"Gr 12 School %\",\"Gr 12 Exam %\",\"Final %\",\"Final Letter Grade\",\"Credits\"],\"rows\":[{\"Course Name\":\"GRADUCATION TRANSITIONS\",\"Course Code\":\"GT\",\"Req\":\"13\",\"Session Date\":\"2014/06\",\"Final Letter Grade\":\"RM\",\"Credits\":\"4\"},{\"Course Name\":\"ENGLISH 10\",\"Course Code\":\"EN 10\",\"Req\":\"1\",\"Session Date\":\"2013/01\",\"Final %\":\"53\",\"Final Letter Grade\":\"C-\",\"Credits\":\"4\"},{\"Course Name\":\"FOODS AND NUTRITION\",\"Course Code\":\"FDN 10\",\"Session Date\":\"2012/06\",\"Final %\":\"67\",\"Final Letter Grade\":\"C+\",\"Credits\":\"4\"},{\"Course Name\":\"FOUNDATIONS OF MATH AND PRE-CALCULUS\",\"Course Code\":\"FMP 10\",\"Req\":\"6\",\"Session Date\":\"2012/01\",\"Final %\":\"88\",\"Final Letter Grade\":\"A\",\"Credits\":\"4\"},{\"Course Name\":\"PHYSICAL EDUCATION 10\",\"Course Code\":\"PE 10\",\"Req\":\"11\",\"Session Date\":\"2012/01\",\"Final %\":\"60\",\"Final Letter Grade\":\"C\",\"Credits\":\"4\"},{\"Course Name\":\"PLANNING 10\",\"Course Code\":\"PLAN 10\",\"Req\":\"10\",\"Session Date\":\"2013/06\",\"Final %\":\"56\",\"Final Letter Grade\":\"C-\",\"Credits\":\"4\"}]},\"id\":1,\"PEN\":\"123 456 789\",\"Birth Date\":\"1995/06/30\",\"Issue Date\":\"2011/06/30\",\"Name of School\":\"Victoria Continuing Education\",\"Street Address\":\"123 Main\",\"City\":\"Victoria\",\"Postal Code\":\"V8T 1A3\"}"
     }
   }
 }
