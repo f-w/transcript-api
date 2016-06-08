@@ -33,6 +33,11 @@
   "session": {},
   "auth": {},
   "parse": {},
+  "parse:before": {
+    "./middleware/pre-body-parser":{
+      "methods": ["POST"]
+    }
+  },
   "routes": {
     "loopback#rest": {
       "paths": [
